@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">مسح</string>
     <string name="chat_terminal_connect_failed">فشل فتح الطرفية</string>
     <string name="chat_terminal_tap_keyboard">اضغط لفتح لوحة المفاتيح</string>
-    <string name="settings_show_shell_button">إظهار زر الصدفة</string>
-    <string name="settings_show_shell_button_desc">وصف زر إظهار الصدفة في الإعدادات</string>
     <string name="server_settings_providers">المزودون</string>
     <string name="server_settings_providers_desc">تفعيل أو تعطيل المزودين لهذا الخادم</string>
     <string name="server_settings_providers_connected">متصل</string>

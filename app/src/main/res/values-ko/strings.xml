@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">지우기</string>
     <string name="chat_terminal_connect_failed">터미널 열기 실패</string>
     <string name="chat_terminal_tap_keyboard">키보드를 열려면 탭하세요</string>
-    <string name="settings_show_shell_button">셸 버튼 표시</string>
-    <string name="settings_show_shell_button_desc">셸 버튼 표시 설정</string>
     <string name="server_settings_providers">프로바이더</string>
     <string name="server_settings_providers_desc">이 서버의 프로바이더를 활성화 또는 비활성화하세요</string>
     <string name="server_settings_providers_connected">연결됨</string>

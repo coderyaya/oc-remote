@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">Cancella</string>
     <string name="chat_terminal_connect_failed">Impossibile aprire il terminale</string>
     <string name="chat_terminal_tap_keyboard">Tocca per aprire la tastiera</string>
-    <string name="settings_show_shell_button">Mostra pulsante shell</string>
-    <string name="settings_show_shell_button_desc">Mostra o nascondi il pulsante shell nell\'interfaccia</string>
     <string name="server_settings_providers">Provider</string>
     <string name="server_settings_providers_desc">Abilita o disabilita i provider per questo server</string>
     <string name="server_settings_providers_connected">Connesso</string>

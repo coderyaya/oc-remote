@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">清除</string>
     <string name="chat_terminal_connect_failed">终端打开失败</string>
     <string name="chat_terminal_tap_keyboard">点击打开键盘</string>
-    <string name="settings_show_shell_button">显示 Shell 按钮</string>
-    <string name="settings_show_shell_button_desc">在设置中显示 Shell 按钮</string>
     <string name="server_settings_providers">提供方</string>
     <string name="server_settings_providers_desc">为此服务器启用或禁用提供方</string>
     <string name="server_settings_providers_connected">已连接</string>

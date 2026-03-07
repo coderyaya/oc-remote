@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">Очистити</string>
     <string name="chat_terminal_connect_failed">Не вдалося відкрити термінал</string>
     <string name="chat_terminal_tap_keyboard">Натисніть для відкриття клавіатури</string>
-    <string name="settings_show_shell_button">Показувати кнопку Shell</string>
-    <string name="settings_show_shell_button_desc">Опис кнопки Shell у налаштуваннях</string>
     <string name="server_settings_providers">Провайдери</string>
     <string name="server_settings_providers_desc">Увімкнути або вимкнути провайдери для цього сервера</string>
     <string name="server_settings_providers_connected">Підключено</string>

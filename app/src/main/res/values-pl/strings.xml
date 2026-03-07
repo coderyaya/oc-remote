@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">Wyczyść</string>
     <string name="chat_terminal_connect_failed">Nie udało się otworzyć terminala</string>
     <string name="chat_terminal_tap_keyboard">Dotknij, aby otworzyć klawiaturę</string>
-    <string name="settings_show_shell_button">Pokaż przycisk powłoki</string>
-    <string name="settings_show_shell_button_desc">Wyświetl przycisk umożliwiający dostęp do powłoki</string>
     <string name="server_settings_providers">Dostawcy</string>
     <string name="server_settings_providers_desc">Włącz lub wyłącz dostawców dla tego serwera</string>
     <string name="server_settings_providers_connected">Połączono</string>

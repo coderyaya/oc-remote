@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">Limpiar</string>
     <string name="chat_terminal_connect_failed">No se pudo abrir el terminal</string>
     <string name="chat_terminal_tap_keyboard">Toca para abrir el teclado</string>
-    <string name="settings_show_shell_button">Mostrar botón de shell</string>
-    <string name="settings_show_shell_button_desc">Mostrar u ocultar el botón de shell en la interfaz</string>
     <string name="server_settings_providers">Proveedores</string>
     <string name="server_settings_providers_desc">Activar o desactivar proveedores para este servidor</string>
     <string name="server_settings_providers_connected">Conectado</string>

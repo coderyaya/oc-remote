@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">Leeren</string>
     <string name="chat_terminal_connect_failed">Terminal konnte nicht geöffnet werden</string>
     <string name="chat_terminal_tap_keyboard">Zum Öffnen der Tastatur tippen</string>
-    <string name="settings_show_shell_button">Shell-Button anzeigen</string>
-    <string name="settings_show_shell_button_desc">Shell-Button in den Einstellungen anzeigen</string>
     <string name="server_settings_providers">Provider</string>
     <string name="server_settings_providers_desc">Provider für diesen Server aktivieren oder deaktivieren</string>
     <string name="server_settings_providers_connected">Verbunden</string>

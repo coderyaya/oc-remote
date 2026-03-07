@@ -343,8 +343,6 @@
     <string name="chat_terminal_clear">クリア</string>
     <string name="chat_terminal_connect_failed">ターミナルの起動に失敗しました</string>
     <string name="chat_terminal_tap_keyboard">タップしてキーボードを開く</string>
-    <string name="settings_show_shell_button">シェルボタンを表示</string>
-    <string name="settings_show_shell_button_desc">シェルボタンの表示設定</string>
     <string name="server_settings_providers">プロバイダー</string>
     <string name="server_settings_providers_desc">このサーバーのプロバイダーを有効／無効にする</string>
     <string name="server_settings_providers_connected">接続済み</string>
