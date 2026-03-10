@@ -795,6 +795,17 @@ class OpenCodeApi @Inject constructor(
         }.body()
     }
 
+    /**
+     * Dispose global instances and force provider/auth state refresh.
+     * POST /global/dispose
+     */
+    suspend fun disposeGlobal(conn: ServerConnection): Boolean {
+        val response = httpClient.post("${conn.baseUrl}/global/dispose") {
+            conn.authHeader?.let { header("Authorization", it) }
+        }
+        return response.status.isSuccess()
+    }
+
     // ============ Commands ============
 
     /**

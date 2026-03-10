@@ -314,10 +314,18 @@ class ServerSettingsViewModel @Inject constructor(
                     _uiState.update { it.copy(isSaving = false, error = "Failed to disconnect provider") }
                     return@launch
                 }
+
+                val disposed = runCatching { api.disposeGlobal(conn) }.getOrElse { false }
+                if (BuildConfig.DEBUG) Log.d(TAG, "disconnectProvider: disposed=$disposed")
+
                 // Optimistically remove from connected set before reload
                 _providerConnected.update { it - providerId }
                 rebuildUi()
                 loadProviders()
+
+                if (!disposed) {
+                    _uiState.update { it.copy(error = "Provider credentials removed, but failed to refresh server instance") }
+                }
             } catch (e: Exception) {
                 Log.e(TAG, "Failed to disconnect provider", e)
                 _uiState.update { it.copy(error = e.message ?: "Failed to disconnect provider") }
